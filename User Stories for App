@@ -1,0 +1,49 @@
+Base User Stories:
+User Story #1: As a user, I want to be able to view a presentation of the different aspects of my personal Spotify music listening tastes displayed in colorful and fun ways.
+Acceptance criteria:
+Able to log into your personal Spotify account from the app.
+Able to parse through the account’s data to generate a detailed and creative summary of the user’s music listening habits and tastes.
+
+User Story #2: As a user, I want to be able to create an account and log into the app so I can view my past Spotify Wrapped summaries.
+ Acceptance criteria:
+Able to create an account that holds your associated Spotify info.
+Account information persists after the app is closed.
+Provide a screen where past Spotify Wrapped summaries can be accessed and viewed.
+Provide a screen where your login info can be updated.
+Provide a screen where you can delete your account
+
+
+
+1. As a user, I want to be able to grant my friends the ability to view my Spotify Wrapped.
+3 points.
++2 points if you receive touch notifications once you are granted viewing access
+
+2. As a user, I want to be able to invite a friend to join a Duo Wrapped that displays and compares both of our tastes in a creative combined way
+13 points
+
+5. As a user, I would like to be able to hear clips from some of my top songs play during my Spotify Wrapped (due to API limitations, at least 1 group member needs Spotify Premium to attempt this story!
+13 points
+
+10. As a developer, I would like a CI/CD pipeline to test my code to verify that it builds
+and is formatted correctly
+5 points
++1 point for not allowing branches that have failed CI/CD runs to be merged into main in GitHub
+
+13. As a developer, I would like to be able to use pre made templates for PRs and issues in GitHub
+1 points
+
+Additional User Stories:
+8. As a user, I would like to control the timespan of the generated Wrapped summary
+(1 week, 1 month, 1 year, all time, etc.)
+5 points
+
+11. As a user, I would like to be able to export a summary of my Wrapped as an image file that I can easily copy and share with others outside of the app
+3 points
+
+5. b +3 points for integrating music playback into Duo Wrapped or the special holiday versions of Spotify Wrapped
+
+12.As a user, I would like to be able to sign into my account from any device (Firebase Cloud storage instead of SQLite). 8 points 
+
+14. As a user, I would like to be able to access a settings page where I can toggle a dark mode and change my notification preferences
+3 points
+(must do at least one other user story with notifications involved!)
